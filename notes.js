@@ -239,6 +239,46 @@ window.print()
 // Stopped at page: 126
 
 
+// ------------------------------------------------
+// EVENTS
+// ------------------------------------------------
+
+// Diffrent Event Types:
+
+let uiEvents = {
+
+load: 'Web page has finshed loading',
+unload: 'Web page is unloading (usually bc new page was requested)',
+error: 'Broswer encounters a JavaScript error or an asset does not exist',
+resize: 'Browser window has been resized',
+scroll: 'User has scrolled up or down the page'
+}
+
+let keyboardEvents = {
+  keydown: 'User frisr presses a key(repeats while key is depressed)',
+  keyup: 'User releases a key',
+  keypress: 'Character is being inserted(repeats while key is depressed)'
+}
+
+// MOST IMPORTANT DO NOT FORGET
+
+let mouseEvents = {
+  click: 'User peesses and releases a button over the same element',
+  dbclick: 'User presses and releases a button twice over the same element',
+  mousedown: 'User presses a mouse button whle over an elemement',
+  mouseup: 'User releases a mouse button while onver an element',
+  mousemove: 'User moves the mouse(not on touchscreen)',
+  mouseover: 'User moves the mouse over an element(not on touch screen)',
+  mouseout: 'User moves the mouse off an element(not on touchscreen)'
+}
+
+
+
+
+
+
+
+
 
 
 
