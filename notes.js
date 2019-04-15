@@ -233,7 +233,10 @@ window.open()
 window.print()
 // Tells browser that user wants to print content of current page(acts like user has cliked print option in browsers UI)
 
-
+// ------------------------------------------------
+// DOM: The dcument object
+// ------------------------------------------------
+// Stopped at page: 126
 
 
 
