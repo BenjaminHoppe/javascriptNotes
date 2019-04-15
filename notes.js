@@ -214,6 +214,24 @@ window.screenY
 // Y-cordinate of pointer relative to top left corner of screen in pixels
 window.location
 // current URL of window object (or local file path)
+window.document
+// Reference to document object, which is used to repersent the current page contained in window.
+window.history
+// Reference to hsotry object for browser window or tab, which contains details of the pages that have been viewed in current window or tab.
+window.history.length
+// Num of items in history object for broswer or tab
+window.screen
+// Reference to screen object
+window.screen.width
+// Accesses screen object and finds value of its width property in pixels
+window.screen.height
+// Accesses screen object and finds value of its height property in pixels
+window.alert()
+// Creates dialog box with message (user must click OK button to close it)
+window.open()
+// Opens new broswer windiow with URL specified as param, if browser has popup blocking software this might not work.
+window.print()
+// Tells browser that user wants to print content of current page(acts like user has cliked print option in browsers UI)
 
 
 
